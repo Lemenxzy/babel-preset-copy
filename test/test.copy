@@ -1,0 +1,5 @@
+const ele = <div id='container'>
+    <input type='text' value='foo' />
+    <a href="javascript:void(0)" onClick={e => alert("Hi")}>点我</a>
+    <span>哈哈哈哈😁</span>
+</div>;

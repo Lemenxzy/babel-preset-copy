@@ -1,0 +1,22 @@
+{
+  "name": "@bable/plugin-transform-copy",
+  "version": "1.0.0",
+  "description": "Babel preset to transform JSX into Copy.copyCreateElement() calls",
+  "main": "index.js",
+  "scripts": {
+    "start": "node test/run.js test/test.copy",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/plugin-syntax-jsx": "^7.2.0",
+    "@babel/plugin-transform-react-jsx": "^7.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.0"
+  },
+  "peerDependencies": {
+    "@babel/core": "^7.0.0-0"
+  }
+}
