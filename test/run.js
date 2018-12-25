@@ -1,5 +1,5 @@
 var fs = require('fs');
-var babel = require('@babel/core');
+var babel = require('babel-core');
 var babePresetPreact = require('../index');
 /**
  *运行以下命令启动进程：
@@ -21,8 +21,10 @@ fs.readFile(fileName, function(err, data) {
 
     // convert from a buffer to a string
     const code = data.toString();
+    console.log(code);
+
     try {
-        const out = babel.transform(code, babePresetPreact);
+        const out = babel.transform(code, babePresetPreact());
         // // print the generated code to screen
         console.log(out.code);
     } catch (e) {
