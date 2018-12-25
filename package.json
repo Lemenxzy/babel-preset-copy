@@ -1,5 +1,5 @@
 {
-  "name": "@bable/plugin-transform-copy",
+  "name": "bable-plugin-transform-copy",
   "version": "1.0.0",
   "description": "Babel preset to transform JSX into Copy.copyCreateElement() calls",
   "main": "index.js",
