@@ -1,6 +1,6 @@
 {
   "name": "babel-preset-copy",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Babel preset to transform JSX into Copy.copyCreateElement() calls",
   "main": "index.js",
   "scripts": {

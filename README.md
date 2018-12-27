@@ -1,5 +1,5 @@
 
-# bable-plugin-transform-copy
+# babel-preset-copy
 
 Babel preset to transform JSX into Copy.copyCreateElement() calls
 
@@ -7,7 +7,7 @@ Babel preset to transform JSX into Copy.copyCreateElement() calls
 Install
 
 ```bash
-npm install bable-plugin-transform-copy --save-dev
+npm install babel-preset-copy --save-dev
 ```
 
 Use
