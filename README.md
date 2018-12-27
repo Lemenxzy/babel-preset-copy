@@ -4,14 +4,15 @@
 Babel preset to transform JSX into Copy.copyCreateElement() calls
 
 
-Install
+## Install
 
 ```bash
 npm install babel-preset-copy --save-dev
 ```
 
-Use
+## Use
 
+with webpack loader
 
 ```js
 {
